@@ -1,23 +1,61 @@
 <?php
 
+use Slawisha\Storage\Project\EloquentProjectRepository as Project;
+
 class HomeController extends BaseController {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Default Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| You may wish to use controllers instead of, or in addition to, Closure
-	| based routes. That's great! Here is an example controller method to
-	| get you started. To route to this controller, just add the route:
-	|
-	|	Route::get('/', 'HomeController@showWelcome');
-	|
-	*/
+	protected $project;
 
-	public function showWelcome()
+	public function __construct(Project $project)
 	{
-		return View::make('hello');
+		$this->project = $project;
 	}
 
+	public function index()
+	{
+		$projects = $this->project->all();
+		return View::make('home.index', compact('projects'));
+	}
+
+	public function login()
+	{
+		return View::make('home.login');
+	}
+
+	public function authenticate()
+	{
+		$credentials = array('email'=>Input::get('email'),'password'=>Input::get('password'));
+		if (Auth::attempt($credentials)){
+		return Redirect::route('projects.index');
+		}
+		else return Redirect::route('login');
+	}
+
+	public function logout()
+	{
+		Auth::logout();
+		return Redirect::route('login');
+	}
+
+	public function contact()
+	{
+		return View::make('home.contact');
+	}
+
+	public function sendMail()
+	{
+		$data = array('name' => Input::get('name'), 
+			'email' => Input::get('email'), 
+			'subject' => Input::get('subject'), 
+			'messagetext' => Input::get('message'));
+
+		Mail::pretend();
+		Mail::send('emails.contact', $data, function($message){
+			$message->to('slawisha@yahoo.com')
+				->subject('test');
+		});
+
+		return Redirect::route('contact')->with('flash_message', 'Email sent');
+
+	}
 }
