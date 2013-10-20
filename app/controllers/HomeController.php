@@ -49,7 +49,7 @@ class HomeController extends BaseController {
 			'subject' => Input::get('subject'), 
 			'messagetext' => Input::get('message'));
 
-		Mail::pretend();
+		//Mail::pretend();
 		Mail::send('emails.contact', $data, function($message){
 			$message->to('slawisha@yahoo.com')
 				->subject('test');
