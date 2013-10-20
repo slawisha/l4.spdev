@@ -16,7 +16,7 @@ class EloquentProjectRepository implements ProjectRepositoryInterface
 
 	public function create($input)
 	{
-		$updir = public_path() . '\uploads';
+		$updir = public_path() . '/uploads';
 		
 		$project = new Project;
 
@@ -36,7 +36,7 @@ class EloquentProjectRepository implements ProjectRepositoryInterface
 
 	public function update($id, $input)
 	{
-		$updir = public_path() . '\uploads';
+		$updir = public_path() . '/uploads';
 		
 		$project = Project::find($id);
 
