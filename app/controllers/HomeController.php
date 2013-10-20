@@ -50,14 +50,14 @@ class HomeController extends BaseController {
 			'subject' => $subject, 
 			'messagetext' => Input::get('message'));
 
-		Mail::pretend();
+		//Mail::pretend();
 		Mail::send('emails.contact', $data, function($message) use($subject){
 			$message->to('slawisha@yahoo.com')
 				->subject($subject);
 		});
 
-		return $data;
-		//return Redirect::route('contact')->with('flash_message', 'Email sent');
+		//return $data;
+		return Redirect::route('contact')->with('flash_message', 'Email sent');
 
 	}
 }
