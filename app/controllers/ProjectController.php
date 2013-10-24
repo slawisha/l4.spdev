@@ -1,6 +1,6 @@
 <?php
 
-use Slawisha\Storage\Project\EloquentProjectRepository as Project;
+use Slawisha\Storage\Project\ProjectRepositoryInterface as Project;
 
 class ProjectController extends \BaseController {
 
