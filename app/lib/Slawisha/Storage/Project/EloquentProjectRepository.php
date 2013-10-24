@@ -22,8 +22,9 @@ class EloquentProjectRepository implements ProjectRepositoryInterface
 
 		foreach ($input as $key => $value) {
 			if($key == 'image') {
-
+				//move image to upload directory
 				\Input::file('image')->move($updir, \Input::file('image')->getClientOriginalName() );
+				//get file's full name path
 				$value = 'uploads/' . \Input::file('image')->getClientOriginalName();
 			}
 			if($key != '_token') $project->$key = $value;
@@ -42,10 +43,12 @@ class EloquentProjectRepository implements ProjectRepositoryInterface
 
 		foreach ($input as $key => $value) {
 			if($key == 'image'){
-					if(\Input::hasFile('image')){
+					//if new file has been added
+					if(\Input::hasFile('image')){					
 					\Input::file('image')->move($updir, \Input::file('image')->getClientOriginalName());
 					$value = 'uploads/' . \Input::file('image')->getClientOriginalName();
 					} else {
+					//use current image
 					$value = $project->image;
 					}				
 				}

@@ -44,6 +44,9 @@ class HomeController extends BaseController {
 
 	public function sendMail()
 	{
+		$v = new Slawisha\Services\Validators\Contact;
+
+		if($v->passes()){
 		$subject = Input::get('subject');
 		$data = array('name' => Input::get('name'), 
 			'email' => Input::get('email'), 
@@ -58,6 +61,9 @@ class HomeController extends BaseController {
 
 		//return $data;
 		return Redirect::route('contact')->with('flash_message', 'Email sent');
+		}
+
+		return Redirect::back()->withInput()->withErrors($v->getErrors());
 
 	}
 }
