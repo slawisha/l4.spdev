@@ -523,7 +523,7 @@
 			"file": "/c/wamp/www/l4.spdev/app/controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 875,
+				"buffer_size": 1454,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "/c/wamp/www/l4.spdev/app/views/home/contact.blade.php",
 			"settings":
 			{
-				"buffer_size": 779,
+				"buffer_size": 1072,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,15 +539,41 @@
 			"file": "/c/wamp/www/l4.spdev/app/views/layouts/default.blade.php",
 			"settings":
 			{
-				"buffer_size": 3104,
+				"buffer_size": 3317,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/d/sites/l4.tests/3.",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/sites/sf2.framework/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php",
+			"settings":
+			{
+				"buffer_size": 55908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nAdvancedNewFile:\n---------------\n\n  - Fix issue with shell input breaking auto complete functionality.\n  - Support template files to be specified relative to the packages directory in the form \"Packages/User/sample.template\"\n  - Add new setting \"append_extension_on_move\". This setting will, when set to true, automatically append the extension of the source file when moving if one is not specified.\n  \n\n  - Miscellaneous bug fixes.\n  \n  Enhancements:\n  - Bug fixes.\n  - Add \"shell_input\" setting, which allows for curly brace expansion and escaping of characters, such as spaces.\n  - Add \"file_templates\" setting. For more information on this setting, see the README.\n  \n",
+			"settings":
+			{
+				"buffer_size": 724,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		},
 		{
 			"file": "/c/wamp/www/l4.spdev/public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 895,
+				"buffer_size": 921,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +581,31 @@
 			"file": "/c/wamp/www/l4.spdev/app/config/mail.php",
 			"settings":
 			{
-				"buffer_size": 3963,
+				"buffer_size": 4008,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/wamp/www/l4.spdev/app/views/projects/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1200,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/l4.ecommerce/app/database/seeds/OrderItemTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 696,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/wamp/www/l4.spdev/app/views/projects/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 871,
 				"line_ending": "Windows"
 			}
 		}
@@ -788,6 +838,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Slavisa Petrovic/Downloads/Ras10032014/Ras10032014/raspored.css",
 		"/c/wamp/www/l4.spdev/app/views/home/login.blade.php",
 		"/c/wamp/www/l4.spdev/app/views/projects/create.blade.php",
 		"/c/wamp/www/l4.spdev/app/views/home/index.blade.php",
@@ -914,8 +965,7 @@
 		"/c/wamp/www/used_cars_lar/application/views/layouts/default.blade.php",
 		"/C/Users/Slavisa Petrovic/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
 		"/c/wamp/www/used_cars_lar/application/migrations/2013_03_12_095523_create_photos_table.php",
-		"/c/wamp/www/used_cars_lar/public/uploads/WP3.0-ERD.png",
-		"/c/wamp/www/used_cars_lar/application/controllers/sellers.php"
+		"/c/wamp/www/used_cars_lar/public/uploads/WP3.0-ERD.png"
 	],
 	"find":
 	{
@@ -1085,7 +1135,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1093,15 +1143,15 @@
 					"file": "/c/wamp/www/l4.spdev/app/controllers/HomeController.php",
 					"settings":
 					{
-						"buffer_size": 875,
+						"buffer_size": 1454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								861,
-								870
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1359,15 +1409,15 @@
 					"file": "/c/wamp/www/l4.spdev/app/views/home/contact.blade.php",
 					"settings":
 					{
-						"buffer_size": 779,
+						"buffer_size": 1072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								76,
-								61
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1625,15 +1675,15 @@
 					"file": "/c/wamp/www/l4.spdev/app/views/layouts/default.blade.php",
 					"settings":
 					{
-						"buffer_size": 3104,
+						"buffer_size": 3317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2300,
-								2300
+								165,
+								251
 							]
 						],
 						"settings":
@@ -1882,25 +1932,209 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/c/wamp/www/l4.spdev/public/css/style.css",
+					"file": "/d/sites/l4.tests/3.",
 					"settings":
 					{
-						"buffer_size": 895,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								737,
-								737
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/sites/sf2.framework/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php",
+					"settings":
+					{
+						"buffer_size": 55908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								501,
+								501
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/c/wamp/www/l4.spdev/public/css/style.css",
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2153,19 +2387,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "/c/wamp/www/l4.spdev/app/config/mail.php",
 					"settings":
 					{
-						"buffer_size": 3963,
+						"buffer_size": 4008,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1736,
-								1736
+								1007,
+								1007
 							]
 						],
 						"settings":
@@ -2309,6 +2543,269 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/c/wamp/www/l4.spdev/app/views/projects/edit.blade.php",
+					"settings":
+					{
+						"buffer_size": 1200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								323
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:\\Program Files (x86)\\nodejs\\node.exe",
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/laravel-blade/laravel-blade-master/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/wamp/www/l4.ecommerce/app/database/seeds/OrderItemTableSeeder.php",
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"css": "C:\\Program Files (x86)\\nodejs\\node.exe",
+								"javascript": "C:\\Program Files (x86)\\nodejs\\node.exe"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/c/wamp/www/l4.spdev/app/views/projects/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/laravel-blade/laravel-blade-master/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -2363,6 +2860,18 @@
 		"selected_items":
 		[
 			[
+				"defau",
+				"app/views/layouts/default.blade.php"
+			],
+			[
+				"inde",
+				"app/views/projects/index.blade.php"
+			],
+			[
+				"e",
+				"app/views/projects/edit.blade.php"
+			],
+			[
 				"mai",
 				"app/config/mail.php"
 			],
@@ -2401,10 +2910,6 @@
 			[
 				"proje",
 				"app/controllers/ProjectController.php"
-			],
-			[
-				"inde",
-				"app/views/projects/index.blade.php"
 			],
 			[
 				"input",
